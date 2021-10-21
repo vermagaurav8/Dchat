@@ -10,7 +10,7 @@
 <div class={`message ${messageClass}`}>
   <img src={avatar} alt="Avatar" />
   <div class="message-text">
-    <p>{message.what}</p>
+    <p class="msg-show">{message.who}<br />{message.what}</p>
     <time>{timeStamp.toLocaleTimeString()}</time>
   </div>
 </div>
